@@ -29,6 +29,10 @@ body::-webkit-scrollbar-track {
     color: #ffffff;
 }
 
+.heading {
+    margin: 50px 0;
+}
+
 /*
 COLORS:
 #3253AD
