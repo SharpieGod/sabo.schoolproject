@@ -52,6 +52,7 @@ FACA51*/
     align-items: center;
     flex-direction: column;
     border-radius: 14px;
+    width: 100%;
 }
 
 .text {
