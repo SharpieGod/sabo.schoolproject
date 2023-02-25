@@ -19,7 +19,7 @@
     height: 300px;
     width: 240px;
     flex: 1;
-    transition: all 0.4s cubic-bezier(0.3, 0, 0.165, 1.2);
+    transition: all 0.3s cubic-bezier(0.3, 0, 0.165, 1.2);
     border-radius: 7px;
     position: relative;
 }
@@ -30,6 +30,7 @@
     align-items: center;
     position: relative;
     height: 100%;
+    width: 100%;
 }
 
 .picture-text {
@@ -38,12 +39,14 @@
     color: rgba(255, 255, 255, 0.795);
     bottom: 50%;
     transform: translateY(50%);
-    font-size: 200%;
+    font-size: 2em;
     overflow: hidden;
+    width: 100%;
+    text-align: center;
 }
 
 .picture:hover {
-    flex: 3;
+    flex: 7;
 }
 
 .image-preview:hover > :not(:hover){
