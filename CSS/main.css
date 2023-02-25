@@ -7,6 +7,21 @@ body {
     height: 3000px;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: saturate(1.5);
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(rgb(39, 141, 193) , rgb(158, 13, 255) 70%);
+}
+
 * {
     font-family: 'Roboto Slab', serif;
     margin: 0;
@@ -23,6 +38,7 @@ COLORS:
 FACA51*/
 
 #title {
+    border: 2px solid #212121;
     text-align: center;
     width: 80%;
     font-size: 4em;
@@ -53,6 +69,7 @@ FACA51*/
     flex-direction: column;
     border-radius: 14px;
     width: 100%;
+    border: 2px solid #212121;
 }
 
 .text {

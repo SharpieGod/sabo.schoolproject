@@ -53,6 +53,7 @@
 
 .picture {
     background: linear-gradient(var(--color1), #212121);
+    border: 2px solid #212121;
 }
 
 #image-title {
