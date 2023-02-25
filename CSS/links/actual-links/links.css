@@ -16,7 +16,8 @@
     gap: 50px;
 }
 
-.link-group > a {
+.link-group > a,
+.blue {
     animation: pop 5s cubic-bezier(0.5, 0, 0.5, 1) var(--delay) infinite;
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -28,7 +29,8 @@
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.link-group > a:hover {
+.link-group > a:hover,
+.blue:hover {
     transform: scale(1.2);
     box-shadow: -5px -5px 10px #313131a9;
 }
@@ -44,6 +46,7 @@
 .blue {
     color: #72d9ff;
     cursor: pointer;
+    animation: pop 5s cubic-bezier(0.5, 0, 0.5, 1) var(--delay) infinite;
 }
 
 @keyframes pop{
@@ -51,7 +54,7 @@
         transform: scale(1.05);
     }
     50% {
-        transform: scale(0.90);
+        transform: scale(0.95);
     }
     100% {
         transform: scale(1.05);
