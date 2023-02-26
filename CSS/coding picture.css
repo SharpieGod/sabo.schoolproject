@@ -1,0 +1,22 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 70%;
+    margin: 50px 0;
+}
+
+.coding-img {
+    border: 1px solid black;
+    box-shadow: 7px 7px 10px #313131a9;
+    border-radius: 10px;
+    width: 100px;
+    flex: 1;
+    height: 50%;
+    transition: all 0.2s;
+}
+
+.coding-img:hover {
+    scale: 1.1;
+}

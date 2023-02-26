@@ -11,9 +11,10 @@
 .link-group {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
     list-style-type: none;
-    gap: 50px;
+    gap: 40px;
 }
 
 .link-group > a,
@@ -42,13 +43,15 @@
 }
 
 .link-group > a:visited {
-    color: #72d9ff;
+    color: #b172ff;
 }
 
 .blue {
-    color: #72d9ff;
+    color: #b172ff;
     cursor: pointer;
     animation: pop 5s cubic-bezier(0.5, 0, 0.5, 1) var(--delay) infinite;
+    margin: 10px;
+    cursor: pointer;
 }
 
 @keyframes pop{
