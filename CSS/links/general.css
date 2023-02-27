@@ -8,9 +8,10 @@
 }
 
 .desc-container {
-    padding-left: 50px;
+    padding-left: 35px;
     display: flex;
     align-items: center;
+    justify-content: left;
     height: 250px;
 }
 
@@ -29,7 +30,6 @@
 }
 
 .link-desc {
-    width: 550px;
     cursor: default;
 }
 
